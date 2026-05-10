@@ -1,3 +1,5 @@
+# Vehicle class represents a single vehicle in the rental system
+# Each vehicle has an ID, brand, model, year, price and availability status
 GREEN  = "\033[92m"
 RED    = "\033[91m"
 YELLOW = "\033[93m"
