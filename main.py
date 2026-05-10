@@ -1,3 +1,5 @@
+# Main entry point for Vehicle Rental Management System
+# Handles user input and menu navigation
 from file_handler import load_vehicles, save_vehicles, load_history
 from rental import rent_vehicle, return_vehicle
 from car import Vehicle, BOLD, CYAN, YELLOW, GREEN, RESET
