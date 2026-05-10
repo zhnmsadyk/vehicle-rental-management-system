@@ -23,6 +23,7 @@ def _default_vehicles():
         Vehicle(3, "Hyundai", "Sonata",  2021, 55),
         Vehicle(4, "Tesla",   "Model 3", 2023, 95),
         Vehicle(5, "Kia",     "Sportage",2022, 60),
+        Vehicle(6, "Mercedes", "E-Class", 2022, 110),git add .
     ]
 
 def save_history(entry):
