@@ -35,6 +35,8 @@ def main():
             for v in vehicles:
                 print(v)
             print(DIVIDER)
+            brands = {v.brand for v in vehicles}
+            print(f"  {YELLOW}Available brands:{RESET} {brands}")
 
         elif choice == "2":
             print(f"\n  {BOLD}Available vehicles:{RESET}")
